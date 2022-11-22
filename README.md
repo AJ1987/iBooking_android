@@ -1,4 +1,4 @@
 # iBooking_android
 iBooking android client
 
-updated by AJ
+updated by AJ Lu
