@@ -6,8 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.aj.ibooking.activity.LoginActivity;
+import com.aj.ibooking.activity.*;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnLogin;
@@ -24,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
+
             }
         });
 
